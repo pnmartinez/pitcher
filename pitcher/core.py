@@ -23,7 +23,7 @@ from librosa.util import normalize       as librosa_normalize
 from librosa.effects import time_stretch as librosa_time_stretch
 # TODO: could also try pyrubberband.pyrb.time_stretch
 
-from moogfilter import MoogFilter
+from moogfilter.moogfilter import MoogFilter
 
 ZOH_MULTIPLIER = 4
 RESAMPLE_MULTIPLIER = 2
